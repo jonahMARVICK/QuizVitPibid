@@ -3,7 +3,7 @@ const perguntas = [
     pergunta: "Qual é a definição correta de vitaminas de acordo com a biologia?",
     respostas: [
       { id: 1, texto: "Substâncias inorgânicas produzidas em grandes quantidades pelo corpo.", correta: false },
-      { id: 2, texto: "Qualquer substância orgânica necessária em pequeníssima quantidade que o organismo não consegue produzir.", correta: true },
+      { id: 2, texto: "Qualquer substância orgânica necessária em pequeníssima quantidade que o organismo não consegue produzir.", correta: false },
       { id: 3, texto: "Nutrientes que fornecem alto teor calórico para o metabolismo.", correta: false },
       { id: 4, texto: "Proteínas que substituem a necessidade de alimentação sólida.", correta: false },
     ],
@@ -130,7 +130,7 @@ const perguntas = [
     respostas: [
       { id: 1, texto: "Porque cães não precisam de Vitamina C.", correta: false },
       { id: 2, texto: "Porque humanos precisam de doses muito maiores.", correta: false },
-      { id: 3, texto: "Porque os cães conseguem produzi-la em suas próprias células.", correta: true },
+      { id: 3, texto: "Porque os cães não conseguem produzi-la em suas próprias células.", correta: true },
       { id: 4, texto: "Porque ela é tóxica para os animais domésticos.", correta: false },
     ],
   },
